@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_94c3f8b184687aba485e1c744a2a5015 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_94c3f8b184687aba485e1c744a2a5015" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_94c3f8b184687aba485e1c744a2a5015 = L.map(
+                "map_94c3f8b184687aba485e1c744a2a5015",
+                {
+                    center: [35.69545, 139.700623],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7f84a0bffb242613737c2298d780cae9 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_7f84a0bffb242613737c2298d780cae9.addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var marker_0536d209e29e16fcdf9148a667ecc346 = L.marker(
+                [35.69545, 139.700623],
+                {}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var icon_40c613e2c7bb579731ea92e55c424d47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0536d209e29e16fcdf9148a667ecc346.setIcon(icon_40c613e2c7bb579731ea92e55c424d47);
+        
+    
+        var popup_67bf6defcc3a3f6f242db4ef8ec02674 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88427768b71ce6e4c935d3b831d9c3b9 = $(`<div id="html_88427768b71ce6e4c935d3b831d9c3b9" style="width: 100.0%; height: 100.0%;"><strong>新宿東口院</strong><br>Coordinates: 35.69545, 139.700623</div>`)[0];
+                popup_67bf6defcc3a3f6f242db4ef8ec02674.setContent(html_88427768b71ce6e4c935d3b831d9c3b9);
+            
+        
+
+        marker_0536d209e29e16fcdf9148a667ecc346.bindPopup(popup_67bf6defcc3a3f6f242db4ef8ec02674)
+        ;
+
+        
+    
+    
+            var polygon_afcb7dbb86637c4addc5222183838924 = L.polygon(
+                [[35.696385, 139.700102], [35.694629, 139.700126], [35.6945, 139.700157], [35.694417, 139.70032], [35.694466, 139.700978], [35.694487, 139.701073], [35.694781, 139.701473], [35.695498, 139.70184], [35.695631, 139.701889], [35.696232, 139.701498], [35.696379, 139.700984], [35.696479, 139.700535], [35.696506, 139.700176], [35.696462, 139.700107], [35.696385, 139.700102]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": "green", "fillColor": "#3388ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var polygon_f8f88d1ccbb707abccebc050a88effbf = L.polygon(
+                [[35.69737, 139.700058], [35.694015, 139.699732], [35.693656, 139.699757], [35.693219, 139.700128], [35.693218, 139.700129], [35.693302, 139.70095], [35.694055, 139.702393], [35.694395, 139.702918], [35.694745, 139.703003], [35.695585, 139.703], [35.696277, 139.702728], [35.697002, 139.702031], [35.697726, 139.700627], [35.697752, 139.700268], [35.697711, 139.700191], [35.697676, 139.70013], [35.69737, 139.700058]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": "green", "fillColor": "#3388ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var polygon_8d27d16f0ca927123d51a6c1a3c99d33 = L.polygon(
+                [[35.693926, 139.698255], [35.693567, 139.698276], [35.692899, 139.699144], [35.692228, 139.700273], [35.692177, 139.700638], [35.692127, 139.701054], [35.692247, 139.701257], [35.693258, 139.702976], [35.693899, 139.704029], [35.694348, 139.704229], [35.695046, 139.704324], [35.696021, 139.70424], [35.696468, 139.703879], [35.69717, 139.703306], [35.698193, 139.702268], [35.69826, 139.702181], [35.698349, 139.702057], [35.699093, 139.701026], [35.699151, 139.700671], [35.699011, 139.700267], [35.698752, 139.699758], [35.698199, 139.69909], [35.693926, 139.698255]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": "green", "fillColor": "#3388ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var marker_434abb4b1e862febdf34c4c817b088c8 = L.marker(
+                [35.690651, 139.705078],
+                {}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var icon_ad6f7a4655470b081f42554b293ebbee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_434abb4b1e862febdf34c4c817b088c8.setIcon(icon_ad6f7a4655470b081f42554b293ebbee);
+        
+    
+        var popup_25bcd70a95edde051168951419c5d186 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd3722940d7f098171edc359806c089b = $(`<div id="html_bd3722940d7f098171edc359806c089b" style="width: 100.0%; height: 100.0%;"><strong>新宿三丁目院</strong><br>Coordinates: 35.690651, 139.705078</div>`)[0];
+                popup_25bcd70a95edde051168951419c5d186.setContent(html_bd3722940d7f098171edc359806c089b);
+            
+        
+
+        marker_434abb4b1e862febdf34c4c817b088c8.bindPopup(popup_25bcd70a95edde051168951419c5d186)
+        ;
+
+        
+    
+    
+            var polygon_f193f8644e10dec3e7b68c517181385f = L.polygon(
+                [[35.690762, 139.703553], [35.689659, 139.704252], [35.68965, 139.704463], [35.689663, 139.705537], [35.689702, 139.705733], [35.689892, 139.706358], [35.690221, 139.706506], [35.690425, 139.706463], [35.690756, 139.706315], [35.691889, 139.705611], [35.691904, 139.705589], [35.691755, 139.705089], [35.691476, 139.703961], [35.691265, 139.703732], [35.69125, 139.703722], [35.690762, 139.703553]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": "green", "fillColor": "#3388ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var polygon_24787f9fb750d9921b1bfaa6f9a24d18 = L.polygon(
+                [[35.689744, 139.702153], [35.689392, 139.702228], [35.688585, 139.703664], [35.688481, 139.705745], [35.689124, 139.70723], [35.689305, 139.707611], [35.689585, 139.707863], [35.68959, 139.707866], [35.689851, 139.707791], [35.691326, 139.707341], [35.692325, 139.706683], [35.692493, 139.706562], [35.692771, 139.706329], [35.692945, 139.706014], [35.692906, 139.705438], [35.692329, 139.703446], [35.692133, 139.702712], [35.692052, 139.702523], [35.691833, 139.702393], [35.691799, 139.70238], [35.689744, 139.702153]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": "green", "fillColor": "#3388ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var polygon_3203f2ba5dde2bbb8e49b695eec94ab9 = L.polygon(
+                [[35.692476, 139.701141], [35.692127, 139.701052], [35.689449, 139.700629], [35.689095, 139.700691], [35.687628, 139.702661], [35.687424, 139.702993], [35.687375, 139.703089], [35.687246, 139.704796], [35.688391, 139.708267], [35.688715, 139.708967], [35.688791, 139.709026], [35.689124, 139.709163], [35.689207, 139.709158], [35.690699, 139.708962], [35.693689, 139.707198], [35.693788, 139.707094], [35.693904, 139.706903], [35.693981, 139.706364], [35.693888, 139.705879], [35.693641, 139.704911], [35.693064, 139.702498], [35.692834, 139.701729], [35.692675, 139.701233], [35.692572, 139.70117], [35.692476, 139.701141]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": "green", "fillColor": "#3388ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var marker_cdb60cb355160ebb21a83f0973ba4655 = L.marker(
+                [35.6914723, 139.6877947],
+                {}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var icon_4aa4c7c63efc72cb18fa8bdee9bda4f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cdb60cb355160ebb21a83f0973ba4655.setIcon(icon_4aa4c7c63efc72cb18fa8bdee9bda4f3);
+        
+    
+        var popup_2f2ffa7da092b66cf55feed9ba37c954 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9248e5be2b69fcc8208363398d7e02b3 = $(`<div id="html_9248e5be2b69fcc8208363398d7e02b3" style="width: 100.0%; height: 100.0%;"><strong>【湘南】湘南美容クリニック新宿本院</strong><br>Coordinates: 35.6914723, 139.6877947</div>`)[0];
+                popup_2f2ffa7da092b66cf55feed9ba37c954.setContent(html_9248e5be2b69fcc8208363398d7e02b3);
+            
+        
+
+        marker_cdb60cb355160ebb21a83f0973ba4655.bindPopup(popup_2f2ffa7da092b66cf55feed9ba37c954)
+        ;
+
+        
+    
+    
+            var polygon_6acdfa6234a4b4efc938fcaffd39e933 = L.polygon(
+                [[35.691035, 139.686555], [35.690801, 139.686505], [35.690769, 139.686532], [35.690665, 139.686748], [35.690631, 139.686829], [35.69031, 139.687653], [35.690533, 139.687935], [35.691582, 139.68936], [35.691742, 139.689345], [35.692096, 139.68928], [35.69247, 139.688476], [35.692604, 139.688141], [35.692254, 139.686935], [35.692069, 139.686851], [35.691035, 139.686555]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": "green", "fillColor": "#3388ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var polygon_74a1e02123af673d3af55782e393361c = L.polygon(
+                [[35.691594, 139.685301], [35.690453, 139.685193], [35.690123, 139.685336], [35.690078, 139.685391], [35.689742, 139.686195], [35.689483, 139.687344], [35.689318, 139.68819], [35.689298, 139.688334], [35.689337, 139.688443], [35.689566, 139.688721], [35.69157, 139.690531], [35.691855, 139.690716], [35.69194, 139.690758], [35.692321, 139.690655], [35.692383, 139.690586], [35.693757, 139.68835], [35.693703, 139.687995], [35.693528, 139.687036], [35.692624, 139.686007], [35.69195, 139.685498], [35.691643, 139.685317], [35.691594, 139.685301]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": "green", "fillColor": "#3388ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var polygon_edf5e22adbe3a4e6cc318408c8bf5b9a = L.polygon(
+                [[35.690565, 139.683803], [35.689627, 139.683854], [35.689551, 139.683926], [35.688742, 139.685041], [35.688145, 139.687898], [35.688159, 139.688258], [35.688217, 139.689212], [35.688222, 139.689244], [35.691439, 139.691779], [35.692032, 139.692182], [35.692126, 139.692208], [35.692208, 139.692221], [35.692564, 139.692162], [35.693649, 139.690778], [35.694878, 139.688171], [35.694512, 139.686813], [35.69449, 139.68673], [35.694462, 139.686647], [35.694026, 139.685757], [35.69391, 139.685591], [35.692254, 139.683934], [35.690565, 139.683803]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": "green", "fillColor": "#3388ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var marker_91de318b80998edc0808e7beaf807920 = L.marker(
+                [35.6941799, 139.694767],
+                {}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var icon_a216c3af9b58d2f177bc5cdc2c6f1f2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_91de318b80998edc0808e7beaf807920.setIcon(icon_a216c3af9b58d2f177bc5cdc2c6f1f2e);
+        
+    
+        var popup_8cada5465eda5afd0fc1cdc9245da572 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed2675dbccb055fee3f4d1bf2995375a = $(`<div id="html_ed2675dbccb055fee3f4d1bf2995375a" style="width: 100.0%; height: 100.0%;"><strong>【湘南】湘南美容クリニックスキンLab新宿</strong><br>Coordinates: 35.6941799, 139.694767</div>`)[0];
+                popup_8cada5465eda5afd0fc1cdc9245da572.setContent(html_ed2675dbccb055fee3f4d1bf2995375a);
+            
+        
+
+        marker_91de318b80998edc0808e7beaf807920.bindPopup(popup_8cada5465eda5afd0fc1cdc9245da572)
+        ;
+
+        
+    
+    
+            var polygon_fb5d3a0053b8cc455a98e44c21e6f389 = L.polygon(
+                [[35.694183, 139.693238], [35.693421, 139.694497], [35.693245, 139.694811], [35.693376, 139.695273], [35.693464, 139.695492], [35.693527, 139.695552], [35.693875, 139.695644], [35.695058, 139.695543], [35.695136, 139.695342], [35.695215, 139.695141], [35.695346, 139.694667], [35.694525, 139.693352], [35.694352, 139.693227], [35.694308, 139.693202], [35.694183, 139.693238]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": "green", "fillColor": "#3388ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var polygon_65c641fd64bb4601e6a8bf9b5baab82a = L.polygon(
+                [[35.694429, 139.69193], [35.693477, 139.69238], [35.693412, 139.692412], [35.69219, 139.693635], [35.692152, 139.69417], [35.69216, 139.694273], [35.69222, 139.694738], [35.692349, 139.695112], [35.692902, 139.696667], [35.693078, 139.696981], [35.693212, 139.697061], [35.693334, 139.697104], [35.694433, 139.696894], [35.694931, 139.696712], [35.695894, 139.696354], [35.696464, 139.695351], [35.695678, 139.693571], [35.695023, 139.691949], [35.694686, 139.691824], [35.694429, 139.69193]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": "green", "fillColor": "#3388ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var polygon_8313c5bfa61055827f0ee7a8bde9c334 = L.polygon(
+                [[35.695019, 139.690388], [35.693897, 139.69094], [35.692843, 139.691438], [35.692388, 139.691714], [35.692169, 139.691982], [35.692108, 139.692095], [35.691638, 139.693008], [35.69093, 139.694469], [35.690929, 139.694551], [35.690936, 139.695035], [35.690941, 139.695074], [35.692175, 139.697775], [35.692456, 139.697999], [35.693707, 139.698651], [35.693754, 139.698673], [35.693803, 139.69866], [35.696603, 139.697218], [35.696882, 139.697075], [35.697409, 139.696325], [35.697585, 139.696011], [35.696163, 139.69235], [35.695907, 139.69158], [35.695489, 139.690514], [35.695327, 139.690387], [35.695019, 139.690388]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": "green", "fillColor": "#3388ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var marker_5d7950a673565f671201158c5a747c1f = L.marker(
+                [35.6911078, 139.7021065],
+                {}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var icon_99fd512cdd1d77434aca8753dd7989fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5d7950a673565f671201158c5a747c1f.setIcon(icon_99fd512cdd1d77434aca8753dd7989fe);
+        
+    
+        var popup_cd082616ab74e524b8c205f656352bec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2e285f023cf7dede5ef1da59cd29548 = $(`<div id="html_f2e285f023cf7dede5ef1da59cd29548" style="width: 100.0%; height: 100.0%;"><strong>【湘南】湘南美容皮フ科 新宿東口院</strong><br>Coordinates: 35.6911078, 139.7021065</div>`)[0];
+                popup_cd082616ab74e524b8c205f656352bec.setContent(html_f2e285f023cf7dede5ef1da59cd29548);
+            
+        
+
+        marker_5d7950a673565f671201158c5a747c1f.bindPopup(popup_cd082616ab74e524b8c205f656352bec)
+        ;
+
+        
+    
+    
+            var polygon_b3089ae18470aef032fdad437761e1b8 = L.polygon(
+                [[35.691622, 139.701076], [35.690897, 139.701115], [35.690808, 139.701126], [35.690599, 139.701265], [35.690097, 139.702184], [35.690093, 139.702249], [35.690687, 139.703707], [35.69101, 139.703865], [35.69195, 139.703103], [35.692258, 139.702547], [35.692305, 139.701764], [35.692285, 139.70172], [35.691949, 139.701126], [35.691924, 139.701109], [35.691622, 139.701076]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": "green", "fillColor": "#3388ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var polygon_a8d621a15541241b1fdbc2822cf4c1db = L.polygon(
+                [[35.692229, 139.700348], [35.689453, 139.701369], [35.688944, 139.70209], [35.689044, 139.702435], [35.689294, 139.702986], [35.690102, 139.704516], [35.690228, 139.704599], [35.690874, 139.704884], [35.691075, 139.704853], [35.69208, 139.704514], [35.692182, 139.704441], [35.693156, 139.703551], [35.693298, 139.70322], [35.693429, 139.702118], [35.692973, 139.700741], [35.692844, 139.700405], [35.692745, 139.700181], [35.692229, 139.700348]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": "green", "fillColor": "#3388ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var polygon_333f8d5e71322bc8addff149159f14dd = L.polygon(
+                [[35.692555, 139.698969], [35.69206, 139.699039], [35.691864, 139.699107], [35.689018, 139.700032], [35.68894, 139.700173], [35.687634, 139.702671], [35.687691, 139.702844], [35.690015, 139.706086], [35.69021, 139.706251], [35.690238, 139.706268], [35.690924, 139.706128], [35.692408, 139.705692], [35.692439, 139.705674], [35.69397, 139.704478], [35.694265, 139.704123], [35.694388, 139.703946], [35.694429, 139.703787], [35.69439, 139.70254], [35.694154, 139.700554], [35.69415, 139.700529], [35.69415, 139.700529], [35.694146, 139.700504], [35.693815, 139.699802], [35.693685, 139.699569], [35.693587, 139.699413], [35.69291, 139.699026], [35.692555, 139.698969]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": "green", "fillColor": "#3388ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var marker_a0e3301d0789c3b7f47ef5d535c16941 = L.marker(
+                [35.6878741, 139.6988278],
+                {}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var icon_840b47c6090d09dc623663e02e435d0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a0e3301d0789c3b7f47ef5d535c16941.setIcon(icon_840b47c6090d09dc623663e02e435d0f);
+        
+    
+        var popup_42090c5d82f82187084f84c44fcd6e82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_501b029abd4ddf147a02062e7f751d41 = $(`<div id="html_501b029abd4ddf147a02062e7f751d41" style="width: 100.0%; height: 100.0%;"><strong>【湘南】湘南美容クリニック新宿南口院</strong><br>Coordinates: 35.6878741, 139.6988278</div>`)[0];
+                popup_42090c5d82f82187084f84c44fcd6e82.setContent(html_501b029abd4ddf147a02062e7f751d41);
+            
+        
+
+        marker_a0e3301d0789c3b7f47ef5d535c16941.bindPopup(popup_42090c5d82f82187084f84c44fcd6e82)
+        ;
+
+        
+    
+    
+            var polygon_19a078a66e234dab60cc4790dfac9b00 = L.polygon(
+                [[35.687498, 139.697247], [35.687176, 139.69741], [35.687189, 139.699223], [35.687305, 139.699563], [35.687385, 139.699622], [35.688671, 139.699781], [35.689007, 139.699653], [35.689053, 139.699476], [35.689065, 139.699221], [35.689069, 139.699108], [35.689071, 139.698969], [35.689011, 139.698614], [35.688004, 139.697345], [35.687498, 139.697247]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": "green", "fillColor": "#3388ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var polygon_6b221895a5d5101e9e18c7f745671077 = L.polygon(
+                [[35.686724, 139.696269], [35.68657, 139.696464], [35.686433, 139.696797], [35.685829, 139.700159], [35.686104, 139.700392], [35.686272, 139.700451], [35.688898, 139.701201], [35.689251, 139.701127], [35.689322, 139.701075], [35.68944, 139.70094], [35.690456, 139.699024], [35.690416, 139.698522], [35.689279, 139.69737], [35.688189, 139.696464], [35.6876, 139.696147], [35.687352, 139.696051], [35.686724, 139.696269]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": "green", "fillColor": "#3388ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+    
+            var polygon_025dc06fb801ed252f5e33d0125bac0e = L.polygon(
+                [[35.686516, 139.694841], [35.68595, 139.695522], [35.685429, 139.696688], [35.685358, 139.697041], [35.68506, 139.701032], [35.685101, 139.701086], [35.685336, 139.701368], [35.689309, 139.702824], [35.689662, 139.702752], [35.691476, 139.699393], [35.691555, 139.699042], [35.691356, 139.698024], [35.691298, 139.69787], [35.691203, 139.697773], [35.690233, 139.696804], [35.689508, 139.696115], [35.688111, 139.695249], [35.686835, 139.694674], [35.686516, 139.694841]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": "green", "fillColor": "#3388ff", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_94c3f8b184687aba485e1c744a2a5015);
+        
+</script>
+</html>

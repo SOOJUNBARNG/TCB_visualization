@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_01e204d1ae4a79ed2d2584efe97d6b44 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_01e204d1ae4a79ed2d2584efe97d6b44" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_01e204d1ae4a79ed2d2584efe97d6b44 = L.map(
+                "map_01e204d1ae4a79ed2d2584efe97d6b44",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8830c704bf82e64b51e7db5557286702 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_8830c704bf82e64b51e7db5557286702.addTo(map_01e204d1ae4a79ed2d2584efe97d6b44);
+        
+    
+            var marker_dfd3163a1e1208cd34f784cc2177ad0a = L.marker(
+                [34.0522, -118.2437],
+                {}
+            ).addTo(map_01e204d1ae4a79ed2d2584efe97d6b44);
+        
+    
+            var icon_0c8e9ab33b1ae38348bb3c974e4984a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dfd3163a1e1208cd34f784cc2177ad0a.setIcon(icon_0c8e9ab33b1ae38348bb3c974e4984a8);
+        
+    
+        var popup_483615a8f1f4718857680cd7a87be7e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28eb31a1dd52516fe012adf8e940058d = $(`<div id="html_28eb31a1dd52516fe012adf8e940058d" style="width: 100.0%; height: 100.0%;"><strong>Los Angeles</strong><br>Latitude: 34.0522<br>Longitude: -118.2437</div>`)[0];
+                popup_483615a8f1f4718857680cd7a87be7e0.setContent(html_28eb31a1dd52516fe012adf8e940058d);
+            
+        
+
+        marker_dfd3163a1e1208cd34f784cc2177ad0a.bindPopup(popup_483615a8f1f4718857680cd7a87be7e0)
+        ;
+
+        
+    
+    
+            var marker_8bb33cff520d3d18450d948554be6a7b = L.marker(
+                [35.6895, 139.6917],
+                {}
+            ).addTo(map_01e204d1ae4a79ed2d2584efe97d6b44);
+        
+    
+            var icon_7382b313472b1f9f2ef503c8d614ea3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8bb33cff520d3d18450d948554be6a7b.setIcon(icon_7382b313472b1f9f2ef503c8d614ea3a);
+        
+    
+        var popup_5a18bb49ed22a451a8089398e72cf15e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf91de9fbd4e50aeec151999495a9270 = $(`<div id="html_cf91de9fbd4e50aeec151999495a9270" style="width: 100.0%; height: 100.0%;"><strong>Tokyo</strong><br>Latitude: 35.6895<br>Longitude: 139.6917</div>`)[0];
+                popup_5a18bb49ed22a451a8089398e72cf15e.setContent(html_cf91de9fbd4e50aeec151999495a9270);
+            
+        
+
+        marker_8bb33cff520d3d18450d948554be6a7b.bindPopup(popup_5a18bb49ed22a451a8089398e72cf15e)
+        ;
+
+        
+    
+    
+            var marker_c871071bc6b9df0019090c3e652efd0f = L.marker(
+                [51.5074, -0.1276],
+                {}
+            ).addTo(map_01e204d1ae4a79ed2d2584efe97d6b44);
+        
+    
+            var icon_4dfe1c451f546ac70fc1be0c159ed2b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c871071bc6b9df0019090c3e652efd0f.setIcon(icon_4dfe1c451f546ac70fc1be0c159ed2b7);
+        
+    
+        var popup_188c33356bfc1cfd86e320c8e8d64daf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72c48d99c77b29445669aaf23c83ccc0 = $(`<div id="html_72c48d99c77b29445669aaf23c83ccc0" style="width: 100.0%; height: 100.0%;"><strong>London</strong><br>Latitude: 51.5074<br>Longitude: -0.1276</div>`)[0];
+                popup_188c33356bfc1cfd86e320c8e8d64daf.setContent(html_72c48d99c77b29445669aaf23c83ccc0);
+            
+        
+
+        marker_c871071bc6b9df0019090c3e652efd0f.bindPopup(popup_188c33356bfc1cfd86e320c8e8d64daf)
+        ;
+
+        
+    
+    
+            var marker_77418d13a3d0100bb7b71c700805151e = L.marker(
+                [40.7128, -74.006],
+                {}
+            ).addTo(map_01e204d1ae4a79ed2d2584efe97d6b44);
+        
+    
+            var icon_097a93e46df5d96cf117bacd8537aff6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_77418d13a3d0100bb7b71c700805151e.setIcon(icon_097a93e46df5d96cf117bacd8537aff6);
+        
+    
+        var popup_63f8105565662003787b785e21c160e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5ec7abb851e3453d4bfa364414f4ff8 = $(`<div id="html_f5ec7abb851e3453d4bfa364414f4ff8" style="width: 100.0%; height: 100.0%;"><strong>New York</strong><br>Latitude: 40.7128<br>Longitude: -74.006</div>`)[0];
+                popup_63f8105565662003787b785e21c160e1.setContent(html_f5ec7abb851e3453d4bfa364414f4ff8);
+            
+        
+
+        marker_77418d13a3d0100bb7b71c700805151e.bindPopup(popup_63f8105565662003787b785e21c160e1)
+        ;
+
+        
+    
+</script>
+</html>
